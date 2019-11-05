@@ -1,0 +1,50 @@
+body{
+display:inline-block;
+}
+
+li{
+	display:inline-block;
+	font-size: 24px;
+
+
+	
+}
+
+nav{
+	display: inline-block;
+	background-color: #222931;
+	position: relative;
+	top:30px;
+    margin:auto 200px auto 500px;
+    width: 950px;
+	font-size: 12px;
+
+	
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+
+}
+
+.item1{
+	margin:right;
+}
+
+.item2{
+	display: inline-block;
+	font-size:32px;
+}
+
+
+.item4{
+	display: inline-block;
+	float:right;
+
+}
+
+.item5{
+	display: inline-block;
+	float-right:60px 70px;
+}
