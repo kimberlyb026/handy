@@ -1,50 +1,292 @@
-body{
-display:inline-block;
+body {
+	width: 100%;
+	font-family: 'Archivo', sans-serif;
 }
+ div{
+ 	margin: 0 auto;
+ }
 
 li{
 	display:inline-block;
-	font-size: 24px;
-
-
+	padding:20px;
+	color:#ffffff;
 	
 }
 
 nav{
-	display: inline-block;
 	background-color: #222931;
 	position: relative;
-	top:30px;
-    margin:auto 200px auto 500px;
-    width: 950px;
-	font-size: 12px;
+	top:40px;
+	margin:0 auto;
+   width: 950px;
 
-	
 }
+
 a{
-	color:white;
+	color:#ffffff;
 	text-decoration: none;
+	margin: 0 auto;
+
 }
 
+a:hover{
+background-color: #ffe718;
+padding:20px;
+color:black;
+}
+
+span{
+	color:yellow;
 }
 
 .item1{
-	margin:right;
+	position: relative;
+	margin-left: 300px;
 }
 
-.item2{
+.item2>img{
+	width: 100%;
+}
+.item3{
+	position:static;
+	margin-left:350px;
 	display: inline-block;
-	font-size:32px;
 }
 
+.item3:hover{
+	filter: brightness(50%);
+}
 
+.item3>overlay>text3{
+  position: absolute;
+  top: 0;
+}
 .item4{
-	display: inline-block;
-	float:right;
-
+	position: static;
+	display:inline-block;
+}
+.item4:hover{
+	filter: brightness(50%);
 }
 
 .item5{
+	position: static;
 	display: inline-block;
-	float-right:60px 70px;
+}
+.item5:hover{
+	filter: brightness(50%);
+}
+
+.item6{
+	display: inline-block;
+
+}
+.item6>img {
+	width: 100%;
+}
+					
+.text1{
+	background-color: #ffe718;
+	position: relative;
+	bottom: 60px
+	padding:5px;
+	font-size: 22px;
+	margin:50px;
+}
+
+.text7{
+position: relative;
+top:50px;
+left:70px;
+}
+
+h2{
+display: inline-block;
+background-color: black;
+color:white;
+	font-size: 14px;
+	width:100px;
+	padding:20px;
+	position: relative;
+	left:900px;
+	bottom:90px;
+}
+
+h2:hover{
+	background-color: white;
+	color:black;
+
+}
+
+.uitklap-menu{
+	display:none;
+list-style-type: none;
+padding: 0px;
+}
+
+.uitklap-menu>li{
+border:50px black;
+	width: 50px;
+
+}
+.uitklap-item:hover{
+	color:#222931;
+	background-color:#ffe718;
+}
+.uitklap-item:hover> .uitklap-menu{
+	display:block;
+	position: absolute;
+	top:55px;
+    width: 150px;
+	background-color: #222931;
+
+}
+
+.uitklap-item{
+	position: relative;
+}
+
+.far{
+	display: inline-block;
+	background-color:yellow;
+	position: relative;
+	bottom:50px;
+	left:150px;
+	padding:20px;
+	width:250px;
+	font-size:100px;
+}
+
+.fa-handshake{
+	background-color: yellow;
+	position: relative;
+	bottom:60px;
+	left:100px;
+	padding:30px;
+	width: 300px;
+
+}
+
+
+.fa-toolbox{
+		background-color: yellow;
+	position: relative;
+	bottom:100px;
+	left:280px;
+	padding:30px;
+	width: 300px;
+}
+
+.fa-envelope{
+background-color: yellow;
+	position: relative;
+	bottom:110px;
+	left:250px;
+	padding:30px;
+	width: 300px;
+
+}
+
+.footer1{
+	position: relative;
+	bottom:260px;
+	left:200px;
+	padding:30px;
+	margin:10px;
+
+}
+
+.footer2{
+		position: relative;
+	bottom:290px;
+	left:400px;
+	padding:30px;
+	margin:10px;
+}
+
+.footer3{
+		position: relative;
+	bottom:300px;
+	left:350px;
+	padding:30px;
+	margin:10px;
+}
+.footer4{
+	height:220px;
+	width: 200px;
+	margin:0px;
+
+}
+.footer5{
+	position: relative;
+	bottom:0px;
+
+}
+
+.footer6{
+position: relative;
+bottom: 0px;
+}
+
+.text2{
+	position: relative;
+right:1000px;
+top:70px;
+
+}
+
+.footer7{
+	position: relative;
+	left:200px;
+}
+
+.footer>h1{
+	position: relative;
+	right: 450px;
+}
+
+.text3{
+	position: relative;
+	top:20px;
+	right:450px;
+	font-size:10px;
+	max-width: 300px;
+}
+
+.footer8{
+	position: relative;
+	bottom: 300px;
+	left:600px;
+}
+
+.fa-mobile-alt{
+	position: relative;
+}
+
+.span{
+	font-size: 14px;
+	position: relative;
+	left:570px;
+}
+
+.text4{
+	position: relative;
+	top:40px;
+left: 150px;
+font-size:10px;
+}
+.text5{
+	font-size: 15px;
+}
+
+
+.info{
+	position: relative;
+}
+
+#tooltip{
+	opacity: 1;
+	visibility: visible;
+
+
 }
