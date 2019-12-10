@@ -1,10 +1,6 @@
 body {
-	width: 100%;
 	font-family: 'Archivo', sans-serif;
 }
- div{
- 	margin: 0 auto;
- }
 
 li{
 	display:inline-block;
@@ -40,16 +36,15 @@ span{
 }
 
 .item1{
-	position: relative;
-	margin-left: 300px;
+	margin:0 auto;
+	width:960px;
 }
 
 .item2>img{
 	width: 100%;
 }
 .item3{
-	position:static;
-	margin-left:350px;
+	margin-left:50px;
 	display: inline-block;
 }
 
@@ -57,9 +52,9 @@ span{
 	filter: brightness(50%);
 }
 
-.item3>overlay>text3{
+.item3>.overlay>p{
   position: absolute;
-  top: 0;
+ bottom:100px;
 }
 .item4{
 	position: static;
@@ -146,26 +141,6 @@ border:50px black;
 	position: relative;
 }
 
-.far{
-	display: inline-block;
-	background-color:yellow;
-	position: relative;
-	bottom:50px;
-	left:150px;
-	padding:20px;
-	width:250px;
-	font-size:100px;
-}
-
-.fa-handshake{
-	background-color: yellow;
-	position: relative;
-	bottom:60px;
-	left:100px;
-	padding:30px;
-	width: 300px;
-
-}
 
 
 .fa-toolbox{
@@ -289,4 +264,25 @@ font-size:10px;
 	visibility: visible;
 
 
+}
+
+.knoppen{
+	width:1000px;
+	margin:0 auto;
+}
+.knoppen > div{
+	width:250px;
+	margin:25px;
+	display:inline-block;
+	background-color:yellow;
+}
+
+.knoppen > div > div{
+	width:60%;
+	display:inline-block;
+}
+.knoppen > div > i{
+	width:30%;
+	display:inline-block;
+	padding:10px;
 }
